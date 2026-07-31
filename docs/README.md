@@ -126,7 +126,7 @@ Veja a documentação completa em [docs/regras-negocio.md](docs/regras-negocio.m
 
 ### Fase 1 — MVP
 - [x] Estrutura do projeto
-- [ ] Landing page completa
+- [x] Landing page completa
 - [ ] Autenticação (login)
 - [ ] CRUD de projetos
 

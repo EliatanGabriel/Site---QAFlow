@@ -1,8 +1,8 @@
 # Roadmap
 
 ## Fase 1 - MVP
-- [x] Estrutura do projeto
-- [ ] Landing page completa
+- [X] Estrutura do projeto
+- [X] Landing page completa
 - [ ] Autenticação (login)
 - [ ] CRUD de projetos
 
