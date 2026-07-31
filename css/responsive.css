@@ -1,15 +1,8 @@
 @media (max-width: 1024px) {
-  .hero {
-    flex-direction: column;
-    text-align: center;
-    padding: 60px 40px;
+  .features-grid,
+  .plans-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
-
-  .hero-text, .hero-text p { max-width: 100%; }
-
-  .hero-buttons { justify-content: center; }
-
-  .hero-image img { max-width: 100%; }
 }
 
 @media (max-width: 768px) {
@@ -21,11 +14,7 @@
 
   .hero-text h2 { font-size: 2rem; }
 
-  .companies { padding: 40px 24px 80px; }
-
-  .logos { gap: 32px; }
-
-  .logos img { height: 26px; }
+  .section { padding: 60px 24px; }
 }
 
 @media (max-width: 480px) {
@@ -34,4 +23,9 @@
   .hero-buttons { flex-direction: column; align-items: center; }
 
   .buttons .btn-login { display: none; }
+
+  .features-grid,
+  .plans-grid {
+    grid-template-columns: 1fr;
+  }
 }
