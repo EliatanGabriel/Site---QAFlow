@@ -1,28 +1,54 @@
-<!-- Index - Página inicial do site QAFlow -->
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/img/favicon.ico">
   <link rel="stylesheet" href="css/style.css">
-
   <title>QAFlow</title>
 </head>
 <body>
-
-  <header>
-    <h1>QAFlow</h1>
-
-    <a href="#">Recursos</a>
-    <a href="#">Soluções</a>
-    <a href="#">Planos</a>
-    <a href="#">Sobre</a>
-    <a href="#">Contatos</a>
-
-    <button>Entrar</button>
-    <button>Começar Gratis</button>
+  <header class="header">
+    <h1 class="logo">QA<span>Flow</span></h1>
+    <nav class="menu">
+      <a href="#recursos">Recursos</a>
+      <a href="#solucoes">Soluções</a>
+      <a href="#planos">Planos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <div class="buttons">
+      <button class="btn-login">Entrar</button>
+      <button class="btn-primary">Começar Grátis</button>
+    </div>
   </header>
 
+  <section class="hero">
+    <div class="hero-text">
+      <span class="tag">Plataforma de Gestão de Testes</span>
+      <h2>Organize seus testes.<br>Encontre bugs.<br>Entregue software com qualidade.</h2>
+      <p>O QAFlow centraliza casos de teste, bugs, automações, métricas e relatórios em um único lugar para equipes de QA e desenvolvimento.</p>
+      <div class="hero-buttons">
+        <button class="btn-primary">Começar Gratuitamente</button>
+        <button class="btn-secondary">Ver Demonstração</button>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="assets/img/dashboard.png" alt="Dashboard QAFlow">
+    </div>
+  </section>
+
+  <section class="companies">
+    <p>Utilizado por equipes que buscam qualidade em software</p>
+    <div class="logos">
+      <img src="assets/img/github.svg">
+      <img src="assets/img/google.svg">
+      <img src="assets/img/microsoft.svg">
+      <img src="assets/img/amazon.svg">
+      <img src="assets/img/oracle.svg">
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
 </body>
 </html>

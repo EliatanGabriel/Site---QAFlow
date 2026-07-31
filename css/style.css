@@ -1,38 +1,14 @@
-/* Style - Arquivo principal que importa todos os estilos do projeto */
-
 @import url(variables.css);
 @import url(global.css);
-
-@import url(layout/container.css);
-@import url(layout/grid.css);
-@import url(layout/header.css);
-@import url(layout/footer.css);
-@import url(layout/responsive.css);
-
-@import url(components/navbar.css);
-@import url(components/sidebar.css);
-@import url(components/buttons.css);
-@import url(components/cards.css);
-@import url(components/forms.css);
-@import url(components/modal.css);
-@import url(components/tables.css);
-@import url(components/badges.css);
-@import url(components/alerts.css);
-@import url(components/tooltip.css);
-@import url(components/dropdown.css);
-@import url(components/pagination.css);
-@import url(components/loader.css);
-@import url(components/toast.css);
-
-@import url(pages/landing.css);
-@import url(pages/login.css);
-@import url(pages/dashboard.css);
-@import url(pages/projetos.css);
-@import url(pages/demandas.css);
-@import url(pages/bugs.css);
-@import url(pages/casos.css);
-@import url(pages/sessoes.css);
-@import url(pages/evidencias.css);
-@import url(pages/relatorios.css);
-@import url(pages/perfil.css);
-
+@import url(landing.css);
+@import url(responsive.css);
+@import url(login.css);
+@import url(dashboard.css);
+@import url(projetos.css);
+@import url(casos.css);
+@import url(bugs.css);
+@import url(demandas.css);
+@import url(sessoes.css);
+@import url(evidencias.css);
+@import url(relatorios.css);
+@import url(perfil.css);

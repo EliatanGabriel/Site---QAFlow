@@ -1,0 +1,37 @@
+@media (max-width: 1024px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 40px;
+  }
+
+  .hero-text, .hero-text p { max-width: 100%; }
+
+  .hero-buttons { justify-content: center; }
+
+  .hero-image img { max-width: 100%; }
+}
+
+@media (max-width: 768px) {
+  .header { padding: 0 24px; }
+
+  .menu { display: none; }
+
+  .hero { padding: 48px 24px; gap: 40px; }
+
+  .hero-text h2 { font-size: 2rem; }
+
+  .companies { padding: 40px 24px 80px; }
+
+  .logos { gap: 32px; }
+
+  .logos img { height: 26px; }
+}
+
+@media (max-width: 480px) {
+  .hero-text h2 { font-size: 1.6rem; }
+
+  .hero-buttons { flex-direction: column; align-items: center; }
+
+  .buttons .btn-login { display: none; }
+}

@@ -1,45 +1,24 @@
-/* Variables - Variáveis CSS (cores, tipografia, espaçamentos) */
 :root {
-  /* ===== Colors ===== */
-  --primary-color: #3b82f6;
+  --primary: #3b82f6;
   --primary-hover: #2563eb;
-  --secondary-color: #8b5cf6;
-  --success-color: #22c55e;
-  --warning-color: #f59e0b;
-  --danger-color: #ef4444;
-
-  /* ===== Background ===== */
-  --background: #0f172a;
+  --secondary: #8b5cf6;
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --bg: #0f172a;
   --surface: #1e293b;
   --surface-hover: #334155;
-
-  /* ===== Text ===== */
-  --text-primary: #ffffff;
+  --text: #ffffff;
   --text-secondary: #cbd5e1;
   --text-muted: #94a3b8;
-
-  /* ===== Border ===== */
-  --border-color: #334155;
-
-  /* ===== Font ===== */
-  --font-family: 'Inter', sans-serif;
-
-  /* ===== Radius ===== */
+  --border: #334155;
+  --font: 'Inter', -apple-system, sans-serif;
   --radius-sm: 6px;
   --radius-md: 10px;
   --radius-lg: 18px;
-
-  /* ===== Shadow ===== */
   --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.15);
   --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.25);
   --shadow-lg: 0 12px 30px rgba(0, 0, 0, 0.35);
-
-  /* ===== Transition ===== */
   --transition: 0.3s ease;
-
-  /* ===== Sidebar ===== */
-  --sidebar-width: 260px;
-
-  /* ===== Navbar ===== */
   --navbar-height: 70px;
 }
