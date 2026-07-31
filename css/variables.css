@@ -1,5 +1,5 @@
 :root {
-/* CORES */
+  /* CORES */
   --primary: #3b82f6;             /* Cor principal da identidade visual */
   --primary-hover: #2563eb;       /* Cor da interação (hover) do primário */
   --secondary: #8b5cf6;           /* Cor secundária */
@@ -35,7 +35,7 @@
   --subtitle-weight: 500;         /* Peso da fonte do subtítulo */
   --subtitle-color: var(--text-secondary); /* Cor do subtítulo */
 
-/* BORDAS */
+  /* BORDAS */
   --radius-sm: 6px;               /* Borda arredondada pequena */
   --radius-md: 10px;              /* Borda arredondada média */
   --radius-lg: 18px;              /* Borda arredondada grande */
