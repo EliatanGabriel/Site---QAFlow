@@ -1,24 +1,53 @@
 :root {
-  --primary: #3b82f6;
-  --primary-hover: #2563eb;
-  --secondary: #8b5cf6;
-  --success: #22c55e;
-  --warning: #f59e0b;
-  --danger: #ef4444;
-  --bg: #0f172a;
-  --surface: #1e293b;
-  --surface-hover: #334155;
-  --text: #ffffff;
-  --text-secondary: #cbd5e1;
-  --text-muted: #94a3b8;
-  --border: #334155;
-  --font: 'Inter', -apple-system, sans-serif;
-  --radius-sm: 6px;
-  --radius-md: 10px;
-  --radius-lg: 18px;
-  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.15);
-  --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.25);
-  --shadow-lg: 0 12px 30px rgba(0, 0, 0, 0.35);
-  --transition: 0.3s ease;
-  --navbar-height: 70px;
+/* CORES */
+  --primary: #3b82f6;             /* Cor principal da identidade visual */
+  --primary-hover: #2563eb;       /* Cor da interação (hover) do primário */
+  --secondary: #8b5cf6;           /* Cor secundária */
+
+  --success: #22c55e;             /* Mensagens e ações de sucesso */
+  --warning: #f59e0b;             /* Avisos */
+  --danger: #ef4444;              /* Erros e ações perigosas */
+
+  --bg: #0f172a;                  /* Fundo principal da aplicação */
+  --surface: #1e293b;             /* Fundo de cards, navbar e componentes */
+  --surface-hover: #334155;       /* Fundo ao passar o mouse */
+
+  --text: #ffffff;                /* Cor principal do texto */
+  --text-secondary: #cbd5e1;      /* Texto secundário */
+  --text-muted: #94a3b8;          /* Texto com menor destaque */
+
+  --border: #334155;              /* Cor padrão das bordas */
+
+  /* TIPOGRAFIA */
+  --font: 'Inter', -apple-system, sans-serif; /* Fonte padrão do sistema */
+
+  --title-size-xs: 1.5rem;        /* Título extra pequeno (24px) */
+  --title-size-sm: 2rem;          /* Título pequeno (32px) */
+  --title-size-md: 2.5rem;        /* Título médio (40px) */
+  --title-size-lg: 3rem;          /* Título grande (48px) */
+  --title-size-xl: 4rem;          /* Título extra grande (64px) */
+
+  --title-weight: 700;            /* Peso da fonte dos títulos */
+  --title-line-height: 1.2;       /* Espaçamento entre linhas dos títulos */
+  --title-color: var(--text);     /* Cor padrão dos títulos */
+
+  --subtitle-size: 1.25rem;       /* Tamanho do subtítulo (20px) */
+  --subtitle-weight: 500;         /* Peso da fonte do subtítulo */
+  --subtitle-color: var(--text-secondary); /* Cor do subtítulo */
+
+/* BORDAS */
+  --radius-sm: 6px;               /* Borda arredondada pequena */
+  --radius-md: 10px;              /* Borda arredondada média */
+  --radius-lg: 18px;              /* Borda arredondada grande */
+
+  /* SOMBRAS */
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.15);   /* Sombra leve */
+  --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.25);  /* Sombra média */
+  --shadow-lg: 0 12px 30px rgba(0, 0, 0, 0.35); /* Sombra intensa */
+
+  /* ANIMAÇÕES */
+  --transition: 0.3s ease;        /* Tempo e suavização padrão das transições */
+
+  /* LAYOUT */
+  --navbar-height: 70px;          /* Altura padrão da barra de navegação */
 }
