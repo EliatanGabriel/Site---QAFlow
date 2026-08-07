@@ -36,7 +36,7 @@ QAFlow/
 ├── assets/
 │   └── img/               # Imagens, logos e favicon
 ├── css/
-│   ├── style.css          # Importador principal de estilos
+│   ├── style.css          # Estilos base (variáveis, reset, landing, responsivo)
 │   ├── variables.css      # Design tokens (cores, raios, sombras, transições)
 │   ├── global.css         # Reset e estilos globais
 │   ├── landing.css        # Estilos da landing page

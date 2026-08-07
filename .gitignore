@@ -1,0 +1,44 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependências
+node_modules/
+bower_components/
+
+# Build
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.tmp/
+*.tsbuildinfo
+
+# Ambiente e configuração local
+.env
+.env.*
+!.env.example
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Arquivos temporários
+temp/
+tmp/

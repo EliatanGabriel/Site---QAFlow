@@ -34,51 +34,57 @@
 - Adicionar observações.
 - Registrar data, horário e responsável.
 
-### RF06 – Gestão de Bugs
+### RF06 – Sessões de Teste
+- Criar sessões de teste.
+- Vincular casos de teste a uma sessão.
+- Registrar responsável, data, horário e resultado por sessão.
+- Consultar o histórico de sessões por projeto.
+
+### RF07 – Gestão de Bugs
 - Registrar bugs.
 - Editar bugs.
 - Alterar status dos bugs.
 - Definir prioridade e severidade.
 - Vincular bugs a casos de teste.
 
-### RF07 – Gestão de Demandas
+### RF08 – Gestão de Demandas
 - Criar demandas.
 - Editar demandas.
 - Atribuir responsáveis.
 - Alterar status.
 - Definir prioridade.
 
-### RF08 – Evidências
+### RF09 – Evidências
 - Anexar imagens.
 - Anexar documentos.
 - Anexar vídeos.
 - Visualizar evidências.
 - Excluir evidências.
 
-### RF09 – Relatórios
+### RF10 – Relatórios
 - Gerar relatórios automaticamente.
 - Exportar relatórios.
 - Exibir métricas de testes.
 - Exibir indicadores de qualidade.
 
-### RF10 – Dashboard
+### RF11 – Dashboard
 - Exibir indicadores do projeto.
 - Mostrar gráficos.
 - Exibir quantidade de bugs.
 - Exibir taxa de sucesso dos testes.
 
-### RF11 – Pesquisa
+### RF12 – Pesquisa
 - Pesquisar projetos.
 - Pesquisar casos de teste.
 - Pesquisar bugs.
 - Aplicar filtros.
 
-### RF12 – Histórico
+### RF13 – Histórico
 - Registrar histórico de alterações.
 - Exibir histórico por usuário.
 - Exibir histórico por projeto.
 
-### RF13 – Notificações
+### RF14 – Notificações
 - Notificar novas atribuições.
 - Notificar novos bugs.
 - Notificar alterações importantes.
