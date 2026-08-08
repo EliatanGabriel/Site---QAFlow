@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Cadastro | QAFlow</title>
+
+    <link rel="icon" href="../assets/img/favicon.ico" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="stylesheet" href="../css/cadastro.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="logo">QA<span>Flow</span></h1>
+
+      <nav class="menu">
+        <a href="../index.html#recursos">Recursos</a>
+        <a href="../index.html#solucoes">Soluções</a>
+        <a href="../index.html#planos">Planos</a>
+        <a href="../index.html#sobre">Sobre</a>
+        <a href="../index.html#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="container cadastro">
+        <h1>Criar conta QAFlow</h1>
+
+        <form>
+          <div class="input-box">
+            <input type="text" name="name" placeholder="Nome completo" required />
+
+            <i class="bx bxs-user"></i>
+          </div>
+
+          <div class="input-box">
+            <input type="email" name="email" placeholder="E-mail profissional" required />
+
+            <i class="bx bxs-envelope"></i>
+          </div>
+
+          <div class="input-box">
+            <input type="password" name="password" placeholder="Senha" required />
+
+            <i class="bx bxs-lock-alt"></i>
+          </div>
+
+          <div class="input-box">
+            <input
+              type="password"
+              name="password-confirm"
+              placeholder="Confirmar senha"
+              required
+            />
+
+            <i class="bx bxs-lock-alt"></i>
+          </div>
+
+          <p class="plans-label">Escolha seu plano</p>
+
+          <div class="plans">
+            <label class="plan">
+              <input type="radio" name="plan" value="starter" checked />
+              <span class="plan-name">Starter</span>
+              <span class="plan-price">R$ 0<span>/mês</span></span>
+              <ul>
+                <li>1 projeto</li>
+                <li>50 casos de teste</li>
+                <li>Relatórios básicos</li>
+              </ul>
+            </label>
+
+            <label class="plan featured">
+              <input type="radio" name="plan" value="pro" />
+              <span class="plan-name">Pro</span>
+              <span class="plan-price">R$ 29<span>/mês</span></span>
+              <ul>
+                <li>Projetos ilimitados</li>
+                <li>Casos de teste ilimitados</li>
+                <li>Automação e integrações</li>
+                <li>Relatórios avançados</li>
+              </ul>
+            </label>
+
+            <label class="plan">
+              <input type="radio" name="plan" value="enterprise" />
+              <span class="plan-name">Enterprise</span>
+              <span class="plan-price">Sob medida</span>
+              <ul>
+                <li>Tudo do plano Pro</li>
+                <li>SSO e auditoria</li>
+                <li>Implantação on-premise</li>
+                <li>Gerente de conta dedicado</li>
+              </ul>
+            </label>
+          </div>
+
+          <button class="login" type="submit">Criar Conta</button>
+
+          <div class="register-link">
+            <p>
+              Já possui uma conta?
+              <a href="login.html">Entrar</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <h2 class="logo">QA<span>Flow</span></h2>
+
+      <p>© 2026 QAFlow. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
